@@ -1,5 +1,5 @@
 import express from 'express'
-import { ControladorHabitacion} from '../Controllers/controladorHabitacion'
+import { ControladorHabitacion} from '../Controllers/controladorHabitacion.js'
 let controladorHabitacion=new ControladorHabitacion // usando el controlador
 import { ControladorReserva } from '../Controllers/ControladorReserva.js'
 let controladorReserva=new ControladorReserva

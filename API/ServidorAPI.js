@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import{rutas} from '../Routes/rutas.js'
-import { conectarConMongo } from '../DataBase/conexion'
+import { conectarConMongo } from '../DataBase/conexion.js'
 
 export class ServidorAPI{
     constructor(){
